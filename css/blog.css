@@ -1,0 +1,74 @@
+body{
+    background-color: #2b313e;
+}
+
+article{
+    background-color: white;
+}
+
+.conteudo{
+    position: relative;
+
+}
+
+.conteudo article{
+    width: 940px;
+    border: 1px solid orange;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.rodape{
+    margin-top: 30px;
+    border-top: 1px solid white;
+}
+
+.conteudo h3 {
+   font-size: 32px;
+   margin-bottom: 5px;
+}
+
+.conteudo-autor{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.conteudo-texto{
+    margin-bottom: 25px;
+}
+
+.conteudo-botao1{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid rgb(92, 92, 221);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.conteudo-botao1 a{
+    color: black;
+}
+
+.conteudo-botao1:hover{
+    background-color: rgb(161, 161, 221);
+    border: 1px solid rgb(92, 92, 221);
+}
+
+.conteudo-botao2{
+    margin-left: 285px;
+    padding: 10px;
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.conteudo-botao2 a{
+    color: black;
+}
+
+.conteudo-botao2:hover{
+    background-color: orange;
+}
