@@ -33,3 +33,11 @@ h1{
     margin-top: 30px;
     font-size: 1.5em;
 }
+
+.conteudo-link a{
+    color: white;
+}
+
+.conteudo-link a:hover{
+    color: rgb(180, 202, 130);
+}
