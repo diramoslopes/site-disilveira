@@ -85,7 +85,13 @@ header ul {
     background-image: url('../img/insta.png');
 }
 
+#contato .youtube{
+    background-image: url('../img/youtube.jpg');
+    border-radius: 5px;
+}
+
 footer{
     padding-top:1em ;
    
 }
+

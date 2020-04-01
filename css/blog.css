@@ -72,3 +72,41 @@ article{
 .conteudo-botao2:hover{
     background-color: orange;
 }
+
+@media screen and (max-width: 480px){
+
+    body{
+        background-color: white;
+    }
+
+    header{
+        border-bottom: none;
+        width: 100%;
+    }
+
+    header ul {
+        text-align: center;
+    }
+
+    header li{
+        display: block;
+        padding: 2%;
+        margin: auto;
+    }
+
+    .conteudo article {
+        width: 90%;
+    }
+
+    .conteudo .primeiro-article{
+        margin-top: 105px;
+    } 
+    
+    .conteudo-botao1 {
+        margin-left: 7%;
+    }
+
+    .conteudo-botao2 {
+        margin-left: 30%;
+    }
+}

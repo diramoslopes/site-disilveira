@@ -41,3 +41,32 @@ h1{
 .conteudo-link a:hover{
     color: rgb(180, 202, 130);
 }
+
+@media screen and (max-width: 480px){
+
+    .conteudo img {
+        margin-left: 6%;
+    }
+
+    .conteudo p {
+        color: black;
+        width: 36%;
+    }
+
+    .conteudo-link a {
+        color: black;
+    }
+
+    h1{
+        margin-top: 10%;
+        color: black;
+        text-align: left;
+        font-size: 25px;
+        margin-left: 2%;
+    }
+
+    .titulo-adunt{
+        margin-left: 11%;
+    }
+
+}

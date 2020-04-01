@@ -96,3 +96,65 @@ section h3{
     width: 50%;
 }
 
+
+@media screen and (max-width: 480px){
+
+    header{
+        border-bottom: none;
+    }
+
+    header ul {
+        text-align: center;
+    }
+
+    header li{
+        display: block;
+        padding: 2%;
+        margin: auto;
+    }
+
+    .identity {
+        margin-top: 20%;
+    }
+
+    .projects-header{
+        float: none;
+    }
+
+    .projects-header h3 {
+        margin-left: 109px;
+    }
+
+    .projects-header p {
+        display: none;
+    }
+
+    #projetos img {
+        margin-left: 22%;
+    }
+    .projects li {
+        margin-top: 30px;
+        margin-left: -143px
+    }
+
+    #sobre {
+        height: auto;
+    }
+
+    #sobre img {
+        float: none;
+    }
+
+    #sobre p.bio, #sobre p.text {
+        width: auto;
+        text-align: center;
+    }
+
+    #sobre p.bio{
+        padding-top: 0;
+    }
+
+    footer p{
+        text-align: center;
+    }
+}
