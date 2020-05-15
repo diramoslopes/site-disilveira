@@ -18,8 +18,10 @@ section h3{
 .identity{
     background-color: #4285f4;
     color: white;
+    font-family: 'Caveat', cursive;
     padding: 10em 2em 7em;
     text-align: center;
+
 }
 
 .identity h1{
@@ -77,6 +79,7 @@ section h3{
     width: 250px;
     float: right;
     border-radius: 5px;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 }
 
 #sobre p.bio{
